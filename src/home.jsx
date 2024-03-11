@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
 
-      {/* Render the Hero component */}
+      {/* Render the Main component */}
       <Main/>
 
 
