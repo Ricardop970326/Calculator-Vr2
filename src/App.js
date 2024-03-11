@@ -1,10 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./home.jsx";
-import List from "./listOfObject.jsx";
-import Contact from "./contact.jsx";
-import Footer from './components/footer.js';
-import Navbar from "./components/navbar.js"
+
+
 // Import the necessary CSS file
 
 function App() {
@@ -12,21 +10,14 @@ function App() {
     <div className="App">
       <Router>
         <div>
-        <Navbar/>
 
           {/* Define the routes using the React Router */}
           <Routes>
             {/* Set the home route */}
             <Route path="/" element={<Home />} />
-            
-            {/* Set the route for the list of objects */}
-            <Route path="/listOfObject" element={<List />} />
-
-            {/* Set the contact route */}
-            <Route path="/contact" element={<Contact />} />
+        
           </Routes>
         </div>
-        <Footer/>
 
       </Router>
     </div>
