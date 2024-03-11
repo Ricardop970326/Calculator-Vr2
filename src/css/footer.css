@@ -1,0 +1,220 @@
+/* Importing Google font - Open Sans */
+
+
+.aboutbtn{
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body{
+  position: relative;
+}
+
+.footer {
+  box-sizing: border-box;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: gray;
+  box-shadow: 5px 7px 7px rgb(75, 75, 75);
+
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-col .links {
+  margin-top: 20px;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-col .links li a:hover {
+  color: rgb(31, 187, 244);
+}
+
+.footer-col p {
+  margin: 20px 0;
+  color: white !important;
+  max-width: 300px;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 5px;
+}
+
+.footer-col input {
+  height: 40px;
+  border-radius: 6px;
+  width: 100%;
+  outline: none;
+  border: 1px solid black; ;
+  padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+  color: #ccc;
+}
+
+ .footer-col form button {
+  color: white;
+  background: rgb(85, 84, 84);
+  border: 1px solid white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.footer-col form button:hover {
+  background: rgb(31, 187, 244);
+  border: 1.5px solid black;
+  color: black;
+
+}
+
+.footer-col .icons {
+  align-content: center;
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+.footer-col .icons {
+  align-content: center;
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+.footer-col .icons i {
+  color: #ffffff;
+}
+svg:not(:root).svg-inline--fa:hover {
+color: white;
+}
+
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer-col .icons {
+  
+    margin-left: 30px;
+}
+
+  .footer {
+ flex-wrap: wrap;
+    transform: none;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .footer .footer-row {
+    gap: 0;
+
+    width: 65%;
+    align-content: center;
+  }
+  .footer-row{
+    align-content: center;
+    align-self: center;
+    
+  }
+  .footer-col  {
+    text-align: center;
+  }
+
+  .footer-col form {
+    display: block;
+    align-self: center;
+  }
+
+  .footer-col form :where(input, button) {
+    width: 100%;
+  }
+
+  .footer-col form button {
+    margin: 10px 0 0 8px;
+  }
+  .footer-col form{
+align-items: center;
+  }
+}
+
+.footer-col .social-media {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.footer-col .social-media a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-col .social-media a:hover {
+  color: rgb(0, 0, 0);
+  margin: auto;
+}
+
+.footer-col .copyright {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.copyright{
+  color: white !important;
+  font-size: 15px;
+  background-color: rgb(78, 77, 77);
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.copyright p{
+  color: white !important;
+}
+
+
+/* 
+@media only screen and (max-width: 320px) {
+footer-col{
+align-content:center !important ;
+}
+} */
+
+@media only screen and (max-width: 320px) {
+
+}
